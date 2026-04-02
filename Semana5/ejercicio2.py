@@ -11,8 +11,12 @@ def suma_ciclo(n):
     """
     Retorna la suma de los primeros n números usando un ciclo.
     """
-    pass
-
+#contador
+suma=0
+for i in range (1,n+1):
+    suma =+ 1
+return suma 
+#
 
 def suma_recursiva(n):
     """
