@@ -27,3 +27,4 @@ def contar_recursivo(n):
         return contar_recursivo(n-1)+[n] 
         #se crea una lista nueva para ir guardando los numeros en orden despues de que se cumple el if 
     print (contar_recursivo(4))
+    #Preguntar a la profe como ejecutar el programa desde github
