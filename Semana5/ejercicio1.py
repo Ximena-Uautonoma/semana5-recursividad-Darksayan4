@@ -12,14 +12,18 @@ def contar_ciclo(n):
     """
     numeros=[]
     for i in range(1,n+1):
-        
-
-
+        numeros.append(i)
+    return numeros:
+    print (contar_ciclo(4))
 
 
 def contar_recursivo(n):
     """
     Retorna una lista con los números desde 1 hasta n usando recursividad.
     """
-    # Escriba aquí su solución y borre la palabra pass de acontinuación
-    pass
+    if n == 1:
+        return [1]
+    else:
+        return contar_recursivo(n-1)+[n] 
+        #se crea una lista nueva para ir guardando los numeros en orden despues de que se cumple el if 
+    print (contar_recursivo(4))
